@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Automatic Night Light PCB</title>
+		<title>Electrical Schematics </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -48,47 +44,77 @@
 							<li><a href="pcb.html">Automatic Night Light PCB</a></li>
 							<li><a href="data.html">Bayesian Probabilistic Programming & K-Clustering</a></li>
 							<li><a href="elec_motors.html">Electrical Schematics</a></li>
+
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Automatic Night Light PCB</h1>
+							<h1>Electrical Schematics</h1>
+					 
 							<div class="box alt">
 								<div class="row gtr-uniform">
-									
-									<div class="col-4"><span class="image fit"><img src="images/circuit.PNG" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/layout2.PNG" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/model.PNG" alt="" /></span></div>
 								
+									<div class="col-6"><span class="image fit"><img src="images/line_diagram.PNG" alt="" /></span> 
+										 <h3 style="text-align:center;"> Line Diagram</h3>
+									</div>
+									<div class="col-6"><span class="image fit"><img src="images/power_diagram.PNG" alt="" /></span>
+										<h3 style="text-align:center;">Power Diagram</h3>
+									</div>
+									
+								</div>
+							</div>
+							<h4>Line Diagram</h4>
+
+							<p>Line Diagrams show simplified connections of electrical components. 
+								The inital layout shows 3 motors that are activated and deactivated with
+								separate push button. The buttons are connected to a contactor with relay
+								and a circuit breaker as a safety measure against damage caused by excess 
+								current, short circuits or signal failures. The components are connected
+								to a 1-Phase Motor that turns on a power indicator when in use.
+
+
+							 </p>
+							<h4>Power Diagram</h4>
+							 <p>Power Diagrams indicate the symbolic electrical components needed to 
+								 implement the necessary wiring for the design. The contactor with relay
+								 labelled K1, K2, K3 consist of a relay coil and a relay contactor.
+
+
+							 </p>
+							
+							 <h2>Bill of Materials</h2>
+							 <div class="box alt">
+								<div class="row gtr-uniform">
+								
+									<div class="col-12"><span class="image fit"><img src="images/bom.PNG" alt="" /></span> 
+										 <h3 style="text-align:center;"> BOM</h3>
+									</div>
+								
+									
 								</div>
 							</div>
 
-							<h2>What is this?</h2>
-							<p>A simple PCB (printed circuit board) that dims under light conditions and brightens
-								in the dark. The design consists of a diode, 100k potentiometer, 
-								22k resistor, 470 resistor, 1M LDR, NPN 3904 transistor and 2 LEDs.
-								The exact BOM (Bill of Materials) and source code can be found on my 
-								<a href="https://github.com/akansha-n888/automatic-night-light-pcb">Github</a>. 
-							</p>
-							<blockquote>Note: PCB Manufacturer was not selected, therefore no updated constraints
-								under "Design Rules". To apply and use the design, please consult your manufacturer's documentation
-								and make the appropriate modifications (i.e. board size, width, parts, etc). 
-					
-							</blockquote>
-							<blockquote>
-								This design uses THT (through-hole) components but can be altered to include SMD (surface-mount)
-								components as well. To change the THT components, update the footprints to your desired SMD parts.
-							</blockquote>
-							<h2>Skills & Tools</h2>
+							 
+							 <p>The bill of materials for this projects includes parts specific to
+								 the chosen manufacturers. (The project is not intended to endorse the above
+								 mentioned manufacturers.)
+							 </p>
 							
-							<p>Software: <a href="https://www.kicad.org/">KiCAD</a></p>
-										
-							<h2>Project Duration</h2>
-							<p>2 hours</p>
+							
 
 		
+						<h2>Skills & Tools</h2>
+
+							<p>Software: <a href="https://www.solidworks.com/product/solidworks-electrical-schematicl">SOLIDWORKS Electrical</a> </p>
+											
+			
+
+				
+
+					
+							
 						</div>
 					</div>
 
